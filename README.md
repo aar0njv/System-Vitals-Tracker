@@ -11,24 +11,27 @@
 **Uptime**: Displays the system's uptime since the last boot.
 
 ## Folder Structure
-
-System-Vitals-Tracker/
+<pre>
+system_health_monitor/
 │
-├── app/                           # System health check modules
-│   ├── __init__.py                # Makes this a Python package
-│   ├── cpu_load.py                # Checks CPU usage
+├── main.py                        # Entry point: runs all checks
+├── app/                           # Folder for system health check modules
+│   ├── __init__.py                # Makes this a Python package (can be empty)
 │   ├── disk_usage.py              # Checks disk space
+│   ├── cpu_load.py                # Checks CPU usage
 │   ├── memory_usage.py            # Checks memory usage
 │   ├── running_services.py        # Checks running services
+│   ├── security_updates.py        # Checks pending security updates
 │   ├── uptime.py                  # Checks system uptime
 │
 ├── utils/                         # Helper functions
-│   ├── __init__.py                # Makes this a Python package
-│   └── formatter.py               # Helper functions like formatting bytes to GB
+│   ├── __init__.py
+│   └── formatter.py               # e.g., bytes to GB
 │
-├── main.py                         results
-├── requirements.txt               # Python dependencies
-└── README.md 
+└── requirements.txt               # Dependencies (like psutil, if used)
+</pre>
+
+
                      
 ## Installation
 
