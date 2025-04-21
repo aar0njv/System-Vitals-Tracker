@@ -14,21 +14,20 @@
 <pre>
 system_health_monitor/
 │
-├── main.py                        # Entry point: runs all checks
-├── app/                           # Folder for system health check modules
+├── main.py                        
+├── app/                           
 │   ├── __init__.py                # Makes this a Python package (can be empty)
 │   ├── disk_usage.py              # Checks disk space
 │   ├── cpu_load.py                # Checks CPU usage
 │   ├── memory_usage.py            # Checks memory usage
 │   ├── running_services.py        # Checks running services
-│   ├── security_updates.py        # Checks pending security updates
 │   ├── uptime.py                  # Checks system uptime
 │
 ├── utils/                         # Helper functions
 │   ├── __init__.py
-│   └── formatter.py               # e.g., bytes to GB
+│   └── formatter.py               
 │
-└── requirements.txt               # Dependencies (like psutil, if used)
+└── requirements.txt               
 </pre>
 
 
