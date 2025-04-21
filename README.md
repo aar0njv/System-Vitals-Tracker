@@ -62,36 +62,6 @@ python main.py
 This will display the health metrics of your system, including disk usage, CPU load, memory usage, running services, and uptime.
 
 
-### Sample Output
-
-System Health Monitoring 
-
-==================================================
-Disk Usage
-==================================================
-/: 24.66 GB used out of 46.12 GB total (53.46%, remaining 19.09 GB free)
-
-==================================================
-CPU Load
-==================================================
-CPU Usage: 0.6%
-User Time: 654.84s | System Time: 276.83s | Idle Time: 32669.94s
-
-==================================================
-Memory Usage
-==================================================
-Total: 16.15 GB | Used: 3.17 GB | Free: 10.27 GB | Available: 12.58 GB (22.1%)
-
-==================================================
-Running Services
-==================================================
-PID: 14052 | Name: python3 | Status: running
-
-==================================================
-System Uptime
-==================================================
-0days 1hours 26minutes 54seconds
-
 
 ## License
 
